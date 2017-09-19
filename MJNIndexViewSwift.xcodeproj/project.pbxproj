@@ -13,6 +13,7 @@
 		6D4D1D9E1F709A3700C9B4AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4D1D9D1F709A3700C9B4AF /* Assets.xcassets */; };
 		6D4D1DA11F709A3700C9B4AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4D1D9F1F709A3700C9B4AF /* LaunchScreen.storyboard */; };
 		6D4D1DAC1F709A3A00C9B4AF /* MJNIndexViewSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4D1DAB1F709A3A00C9B4AF /* MJNIndexViewSwiftUITests.swift */; };
+		6D4D1DB81F709AF600C9B4AF /* MJNIndexViewSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4D1DB71F709AF600C9B4AF /* MJNIndexViewSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6D4D1DA71F709A3A00C9B4AF /* MJNIndexViewSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJNIndexViewSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4D1DAB1F709A3A00C9B4AF /* MJNIndexViewSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJNIndexViewSwiftUITests.swift; sourceTree = "<group>"; };
 		6D4D1DAD1F709A3A00C9B4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4D1DB71F709AF600C9B4AF /* MJNIndexViewSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJNIndexViewSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		6D4D1D8A1F709A3600C9B4AF = {
 			isa = PBXGroup;
 			children = (
+				6D4D1DB61F709AF600C9B4AF /* MJNIndexView */,
 				6D4D1D951F709A3600C9B4AF /* MJNIndexViewSwift */,
 				6D4D1DAA1F709A3A00C9B4AF /* MJNIndexViewSwiftUITests */,
 				6D4D1D941F709A3600C9B4AF /* Products */,
@@ -94,6 +97,14 @@
 				6D4D1DAD1F709A3A00C9B4AF /* Info.plist */,
 			);
 			path = MJNIndexViewSwiftUITests;
+			sourceTree = "<group>";
+		};
+		6D4D1DB61F709AF600C9B4AF /* MJNIndexView */ = {
+			isa = PBXGroup;
+			children = (
+				6D4D1DB71F709AF600C9B4AF /* MJNIndexViewSwift.swift */,
+			);
+			path = MJNIndexView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D4D1D991F709A3600C9B4AF /* ViewController.swift in Sources */,
+				6D4D1DB81F709AF600C9B4AF /* MJNIndexViewSwift.swift in Sources */,
 				6D4D1D971F709A3600C9B4AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +424,7 @@
 				6D4D1DB21F709A3A00C9B4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D4D1DB31F709A3A00C9B4AF /* Build configuration list for PBXNativeTarget "MJNIndexViewSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				6D4D1DB51F709A3A00C9B4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
