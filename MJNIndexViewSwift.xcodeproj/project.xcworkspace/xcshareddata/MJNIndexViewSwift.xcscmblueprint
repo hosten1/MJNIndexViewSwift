@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "e818fc8f-5101-0010-bca7-61a72b445de3++4968",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "e818fc8f-5101-0010-bca7-61a72b445de3++4968" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "e818fc8f-5101-0010-bca7-61a72b445de3++4968" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5BB39BE0-77C4-4549-A0F1-03CB46F13D49",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "e818fc8f-5101-0010-bca7-61a72b445de3++4968" : "VIMDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MJNIndexViewSwift",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MJNIndexViewSwift\/MJNIndexViewSwift.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.139.252\/mini_ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "e818fc8f-5101-0010-bca7-61a72b445de3++4968"
+    }
+  ]
+}
